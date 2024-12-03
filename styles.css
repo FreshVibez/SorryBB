@@ -1,0 +1,199 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffe4e1; /* Light pink */
+  color: #333;
+  text-align: center;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('bubbleland.jpg.JPG'), url('jaychoucon.jpg.JPG'), url('cycling.jpg.JPG'), url('toh.jpg.JPG');
+  background-size: 100px 100px, 150px 150px, 120px 120px, 140px 140px; /* Adjust size as needed */
+  background-position: top left, top right, bottom left, bottom right;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 600px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1; /* Ensure this is above the background images */
+}
+
+h1 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  background-color: #ffb6c1; /* Light pink */
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 1em;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.1);
+  background-color: #ff69b4; /* Hot pink */
+}
+
+#no-button {
+  background-color: #ffcccc; /* Soft pink */
+}
+
+#yes-button {
+  background-color: #b3ffb3; /* Light green */
+}
+
+.decorations {
+  position: absolute; /* Position them on top of the page */
+  width: 100%;
+  height: 100%;
+}
+
+.decorative-image {
+  position: absolute;
+  width: 400px; /* Adjust the size of the images */
+  opacity: 0; /* Make the images semi-transparent */
+}
+
+.top-left {
+  top: 10px;
+  left: 10px;
+}
+
+.top-right {
+  top: 10px;
+  right: 10px;
+}
+
+.bottom-left {
+  bottom: 10px;
+  left: 10px;
+}
+
+.bottom-right {
+  bottom: 10px;
+  right: 10px;
+}
+
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffe4e1; /* Light pink */
+  color: #333;
+  text-align: center;
+}
+
+.gachapon-machine {
+  position: relative;
+  width: 250px;
+  height: 400px;
+  background-color: #f8c1e1; /* Pink base */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.gachapon-container {
+  width: 100%;
+  height: 80%;
+  background-color: #f8c1e1;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.gachapon-glass {
+  width: 80%;
+  height: 80%;
+  background-color: rgba(255, 255, 255, 0.6); /* Transparent glass effect */
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.balls {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ball {
+  width: 20px;
+  height: 20px;
+  background-color: #ffcc99; /* Light colored balls */
+  border-radius: 50%;
+}
+
+.turner {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ff66b2; /* Pink handle */
+  border: none;
+  padding: 15px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  transition: transform 2s ease;
+}
+
+.turner:hover {
+  background-color: #ff3385; /* Darker pink when hovered */
+}
+
+.outlet {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 20px;
+  background-color: #ffcc99; /* Slot for ball to drop */
+  border-radius: 0 0 10px 10px;
+  display: none; /* Initially hidden */
+}
+
+.voucher-message {
+  display: none; /* Initially hidden */
+  background-color: #ffebcd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.voucher-message h1 {
+  color: #ff69b4;
+  font-size: 1.5em;
+}
+
+.voucher-message p {
+  color: #333;
+  font-size: 1em;
+}
+

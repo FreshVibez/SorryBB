@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gachapon</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="gachapon-machine">
+    <div class="gachapon-container">
+      <div class="gachapon-glass">
+        <div class="balls">
+          <!-- Add colorful balls inside the machine -->
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+          <div class="ball"></div>
+        </div>
+      </div>
+    </div>
+    <button class="turner" id="spin-button">Turn</button>
+    <div class="outlet"></div>
+  </div>
+
+  <!-- Voucher Message -->
+  <div class="voucher-message" id="voucher-message">
+    <h1>🎊You won a voucher🎊!</h1>
+    <p>Stand a chance to win something special💖.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
